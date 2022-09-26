@@ -1,0 +1,41 @@
+{
+  "name": "pglife",
+  "version": "1.0.0",
+  "description": "This is a website with some exciting functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "int-test": "mocha --require babel-core/register --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhkamble1077/pglife.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhkamble1077/pglife/issues"
+  },
+  "homepage": "https://github.com/saurabhkamble1077/pglife#readme",
+  "dependencies": {
+    "build": "^0.1.4",
+    "bump-version": "^0.5.0",
+    "run": "^1.4.0",
+    "start": "^5.1.0",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*" 
+  },
+  "devDependencies": {}
+}
